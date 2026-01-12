@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:data_is_fun/main.dart';
+import 'package:stats_is_fun/main.dart';
 
 void main() {
   testWidgets('App loads and displays home page', (WidgetTester tester) async {

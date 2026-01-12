@@ -1,4 +1,4 @@
-name: data_is_fun
+name: stats_is_fun
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+5-prod
+version: 1.0.0+6-prod
 
 environment:
   sdk: ^3.10.3
@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_highlight: ^0.7.0
+  flutter_launcher_icons: ^0.14.4
   go_router: ^17.0.1
   google_fonts: ^6.3.3
   signals: ^6.3.0
@@ -77,3 +78,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/launcher_icon.png"
+  min_sdk_android: 21
